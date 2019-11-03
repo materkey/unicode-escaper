@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+	 viewBox="0 0 16 13" style="enable-background:new 0 0 16 13;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{display:none;}
+	.st2{display:inline;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#EDEDEB;}
+</style>
+<rect id="backgroundrect" class="st0" width="16" height="13"/>
+<title>code [#1115]</title>
+<desc>Created with Sketch.</desc>
+<g class="st1">
+	<title>Layer 1</title>
+	<g id="Page-1" class="st2">
+		<g id="Dribbble-Light-Preview">
+			<g id="icons">
+				<path class="st3" d="M4.3,4.4c0.3-0.3,0.3-0.7,0-1l0,0C4,3.1,3.5,3.1,3.2,3.3L0.2,5.9c-0.3,0.3-0.3,0.7,0,1l2.9,2.6
+					c0.3,0.3,0.8,0.3,1.2,0l0,0c0.3-0.3,0.3-0.7,0-1L2.6,7c-0.3-0.3-0.3-0.7,0-1L4.3,4.4z M15.5,5.9l-2.9-2.6
+					c-0.3-0.3-0.8-0.3-1.2,0l0,0c-0.3,0.3-0.3,0.7,0,1l1.8,1.6c0.3,0.3,0.3,0.7,0,1l-1.8,1.6c-0.3,0.3-0.3,0.7,0,1l0,0
+					c0.3,0.3,0.8,0.3,1.2,0L15.5,7C15.8,6.7,15.8,6.2,15.5,5.9L15.5,5.9z M10.6,2.9l-4.2,7.9c-0.1,0.2-0.4,0.6-0.7,0.6h0
+					c-0.6,0-1-0.7-0.7-1.2l4.2-7.8c0.1-0.2,0.6-0.4,0.6-0.4v0C10.6,1.9,10.9,2.4,10.6,2.9L10.6,2.9z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<path d="M15.8,12.8h-0.3V4h-2.8v3L8.8,0.2h3.9v3h2.8v-3h0.3V12.8z M6.1,8.5c0,0.4-0.1,0.7-0.4,1C5.4,9.7,5,9.9,4.7,9.9
+	c-0.4,0-0.7-0.1-1-0.4c-0.3-0.3-0.4-0.6-0.4-1V0.2h2.8L6.1,8.5L6.1,8.5z M12.7,12.8H5.2C6.4,12.5,7.4,12,8,11.2
+	c0.6-0.7,0.8-1.5,0.8-2.4V6L12.7,12.8z M4.1,12.8H0.2V0.2h0.3v8.6c0,0.9,0.3,1.7,0.8,2.4C2,12,2.9,12.5,4.1,12.8z"/>
+</svg>

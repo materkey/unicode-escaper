@@ -1,0 +1,45 @@
+<idea-plugin>
+    <id>com.materkey.codepoints</id>
+    <name>Unicode Code Points Converter</name>
+    <version>1.0</version>
+    <vendor email="materboyplus@gmail.com">Vyacheslav Kovalev</vendor>
+
+    <description><![CDATA[
+        This plugin converts selected characters to Java UTF-16 presentation variant for Unicode Code Point Escapes and vice versa.<br>
+        Conversion to code points is not affect characters in the ASCII subset of Unicode (U+0000 through U+007F).<br>
+        Example:<br>
+        Input: &quot;1-й пример and 2-nd sample&quot; <br>
+        Output: &quot;1-\u0439 \u043F\u0440\u0438\u043C\u0435\u0440 and 2-nd sample&quot; <br>
+    ]]></description>
+
+    <idea-version since-build="173.0"/>
+
+    <change-notes><![CDATA[
+        <ul>
+            <li>v1.0 - Initial release of the Unicode Code Points Converter</li>
+        </ul>
+    ]]>
+    </change-notes>
+
+    <actions>
+        <action
+                id="com.materkey.codepoints.ToCodePointsConverter"
+                class="com.materkey.codepoints.ToCodePointsConverter"
+                text="Convert from Characters to Unicode Escapes"
+                icon="/icons/actionIcon.svg"
+                description="Escape characters that not in the ASCII subset of Unicode (U+0000 through U+007F) in selected text"
+        >
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+
+        <action
+                id="com.materkey.codepoints.FromCodePointsConverter"
+                class="com.materkey.codepoints.FromCodePointsConverter"
+                text="Convert from Unicode Escapes to Characters"
+                icon="/icons/actionIcon.svg"
+                description="Unescape unicode code points found in selected text"
+        >
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
