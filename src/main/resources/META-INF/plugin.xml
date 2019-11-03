@@ -1,15 +1,12 @@
 <idea-plugin>
     <id>com.materkey.codepoints</id>
-    <name>Unicode Code Points Converter</name>
+    <name>Unicode Escaper</name>
     <version>1.0</version>
     <vendor email="materboyplus@gmail.com">Vyacheslav Kovalev</vendor>
 
     <description><![CDATA[
-        This plugin converts selected characters to Java UTF-16 presentation variant for Unicode Code Point Escapes and vice versa.<br>
-        Conversion to code points is not affect characters in the ASCII subset of Unicode (U+0000 through U+007F).<br>
-        Example:<br>
-        Input: &quot;1-й пример and 2-nd sample&quot; <br>
-        Output: &quot;1-\u0439 \u043F\u0440\u0438\u043C\u0435\u0440 and 2-nd sample&quot; <br>
+        Transform non ASCII subset of Unicode characters to escaped UTF-16 and vice versa.<br>
+        <br><img src="https://raw.githubusercontent.com/materkey/unicode-escaper/master/example/example.gif"/>
     ]]></description>
 
     <idea-version since-build="173.0"/>
