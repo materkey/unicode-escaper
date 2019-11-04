@@ -24,9 +24,3 @@ intellij {
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
-
-patchPluginXml {
-    changeNotes """
-      Edit plugin description. Plugin functionality unchanged.<br>
-    """
-}

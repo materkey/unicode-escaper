@@ -14,13 +14,15 @@
     <depends>com.intellij.modules.platform</depends>
 
     <change-notes><![CDATA[
+        <b>1.0.2</b>
         <ul>
-            <li>v1.0.2 - edit plugin description</li>
-            <li>v1.0.1 - edit plugin description</li>
-            <li>v1.0 - initial release of the Unicode Escaper</li>
+          <li>edit plugin description</li>
         </ul>
-    ]]>
-    </change-notes>
+        <b>1.0</b>
+        <ul>
+          <li>initial release of the Unicode Escaper</li>
+        </ul>
+    ]]></change-notes>
 
     <actions>
         <action
