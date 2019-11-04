@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.materkey.codepoints</id>
     <name>Unicode Escaper</name>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <vendor email="materboyplus@gmail.com">Vyacheslav Kovalev</vendor>
 
     <description><![CDATA[
@@ -17,7 +17,8 @@
 
     <change-notes><![CDATA[
         <ul>
-            <li>v1.0 - Initial release of the Unicode Code Points Converter</li>
+            <li>v1.0.1 - edit plugin description</li>
+            <li>v1.0 - initial release of the Unicode Code Points Converter</li>
         </ul>
     ]]>
     </change-notes>
