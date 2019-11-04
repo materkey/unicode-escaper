@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'codepoints'
-version '1.0.1'
+version '1.0.2'
 
 repositories {
     mavenCentral()
@@ -27,6 +27,6 @@ compileKotlin {
 
 patchPluginXml {
     changeNotes """
-      No changes yet.<br>
+      Edit plugin description. Plugin functionality unchanged.<br>
     """
 }

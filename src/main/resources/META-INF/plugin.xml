@@ -1,13 +1,11 @@
 <idea-plugin>
     <id>com.materkey.codepoints</id>
     <name>Unicode Escaper</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <vendor email="materboyplus@gmail.com">Vyacheslav Kovalev</vendor>
 
     <description><![CDATA[
-        Transform non ASCII subset of Unicode characters to escaped UTF-16 and vice versa.<br>
-        Note: While this form is equivalent to code point references for the Basic Multilingual Plane<br>
-        (0000—FFFF), a two-stage decoding process is needed to handle surrogates to access higher planes.
+        Transform non ASCII subset (00-7F do not change) of Unicode characters to escaped UTF-16 and vice versa.<br>
         <br><img src="https://raw.githubusercontent.com/materkey/unicode-escaper/master/example/example.gif"/>
     ]]></description>
 
@@ -17,8 +15,9 @@
 
     <change-notes><![CDATA[
         <ul>
+            <li>v1.0.2 - edit plugin description</li>
             <li>v1.0.1 - edit plugin description</li>
-            <li>v1.0 - initial release of the Unicode Code Points Converter</li>
+            <li>v1.0 - initial release of the Unicode Escaper</li>
         </ul>
     ]]>
     </change-notes>
