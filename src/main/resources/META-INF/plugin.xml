@@ -6,10 +6,14 @@
 
     <description><![CDATA[
         Transform non ASCII subset of Unicode characters to escaped UTF-16 and vice versa.<br>
+        Note: While this form is equivalent to code point references for the Basic Multilingual Plane<br>
+        (0000—FFFF), a two-stage decoding process is needed to handle surrogates to access higher planes.
         <br><img src="https://raw.githubusercontent.com/materkey/unicode-escaper/master/example/example.gif"/>
     ]]></description>
 
     <idea-version since-build="173.0"/>
+
+    <depends>com.intellij.modules.platform</depends>
 
     <change-notes><![CDATA[
         <ul>
